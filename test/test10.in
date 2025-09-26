@@ -1,0 +1,6 @@
+a := 10;
+if a > 100 then a := a * 2; else a := a * 3;
+print(a);
+
+if a = 20 then a := a + 2 * 5; else a := a / 3;
+print(a);

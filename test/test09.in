@@ -1,0 +1,12 @@
+if 0 then
+  print(10);
+else
+  print(20);
+if 1 then
+  print(10);
+else
+  print(20);
+if 20 > 10 then print(20); else print(10);
+if 20 < 10 then print(25); else print(20);
+if 5 + 5 = 10 then print(30); else print(30);
+if 5 + 5 <> 10 then print(35); else print(40);

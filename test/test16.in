@@ -1,0 +1,24 @@
+if 5 then
+{
+  x := 10;
+  y := 20;
+}
+else
+{
+  x := 20;
+  y := 30;
+}
+print(x);
+print(y);
+
+if 0 then
+{
+  x := 10;
+}
+else
+{
+  x := 15;
+  y := 25;
+}
+print(x);
+print(y);

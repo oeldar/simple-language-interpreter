@@ -1,0 +1,9 @@
+test := 10;
+fn bar(a, b, c)
+{
+  print(a);
+  print(b);
+  print(c);
+}
+
+bar(1, 2 + 2, test);

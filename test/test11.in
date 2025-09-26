@@ -1,0 +1,16 @@
+a := 50;
+
+if a > 0 then
+	if a > 1000 then
+		a := 1014;
+print(a);
+
+if a > 0 then
+	if a < 100 then
+		a := 512;
+print(a);
+
+if a > 1000 then
+	if a > 0 then
+		a := 2048;
+print(a);

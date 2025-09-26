@@ -1,0 +1,16 @@
+fn collaz(a)
+{
+  counter := 1;
+  while a <> 1 do
+  {
+    if a / 2 * 2 = a then
+      a := a / 2;
+    else
+      a := 3 * a + 1;
+    counter := counter + 1;
+  }
+  print(counter);
+}
+
+collaz(12);
+collaz(25);

@@ -1,0 +1,19 @@
+fn fibo(a)
+{
+  one := 1;
+  two := 2;
+  while a > 3 do
+  {
+    temp := two;
+    two := one + two;
+    one := temp;
+    a := a - 1;
+  }
+  return two;
+}
+
+print(fibo(4));
+print(fibo(5));
+print(fibo(6));
+print(fibo(7));
+print(fibo(8));

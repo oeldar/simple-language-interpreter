@@ -1,0 +1,9 @@
+fn saberi(a, b)
+{
+  a := a * 2;
+  b := b * 4;
+  return a + b;
+}
+
+c := saberi(5, 10);
+print(c);

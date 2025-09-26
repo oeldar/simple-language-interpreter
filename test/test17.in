@@ -1,0 +1,10 @@
+a := 10;
+b := -50;
+if a > b then
+{
+  temp := a;
+  a := b;
+  b := temp;
+}
+print(a);
+print(b);

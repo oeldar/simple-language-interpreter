@@ -1,0 +1,24 @@
+a := 50;
+b := 150;
+c := 0;
+
+if a = 50 then
+	if b = 100 then
+		c := 10;
+	else
+		c := 20;
+else
+	c := 30;
+
+print(c);
+
+c := 0;
+if a <> 50 then
+	if b = 100 then
+		c := 10;
+	else
+		c := 20;
+else
+	c := 30;
+
+print(c);
